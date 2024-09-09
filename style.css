@@ -32,8 +32,15 @@ body {
   width: 100%; 
   padding: 5px 0; 
   border: none; 
+  border-radius: 4px;
   font-size: 16px; 
+  cursor:pointer;
   text-align: center; 
+  background: lighten(#73BA9B, 15%);
+}
+
+.__btn:hover{
+
 }
 
 /*# sourceMappingURL=style.css.map */
