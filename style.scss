@@ -1,9 +1,22 @@
-@use 'partials/top-picks';
-@use 'partials/cards';
-@use 'partials/variables';
+@use 'top-picks';
+@use "cards";
+@use "variables";
 
 
 body{
     background-color: variables.$primary;
 }
 
+.card{
+    padding: $card;
+    &__btn{
+        display: block; 
+        width: 100%; 
+        padding: 5px 0; 
+        border: none; 
+        font-size: 16px; 
+        cursor: pointer; 
+        text-align: center;
+        background: color.adjust(variables.$primary, $button-background-color );
+    }
+}
